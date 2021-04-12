@@ -1,0 +1,9 @@
+name: sleep_parser
+version: 0.1.0
+
+authors:
+  - Caspian Baska <caspianbaska@gmail.com>
+
+crystal: 1.0.0
+
+license: MIT
