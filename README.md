@@ -10,7 +10,7 @@ Inspiration taken from [datrs' SLEEP parser](https://github.com/datrs/sleep-pars
 
 ```yaml
 dependencies:
-    sleep_parser:
+  sleep_parser:
     github: caspiano/sleep_parser
 ```
 
