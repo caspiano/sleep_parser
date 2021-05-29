@@ -1,16 +1,18 @@
-# sleep_parser
+# SLEEP Parser
 
-TODO: Write a description here
+Read and write SLEEP protocol headers in crystal lang.
+
+Inspiration taken from [datrs' SLEEP parser](https://github.com/datrs/sleep-parser)
 
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
 
-   ```yaml
-   dependencies:
-     sleep_parser:
-       github: your-github-user/sleep_parser
-   ```
+```yaml
+dependencies:
+    sleep_parser:
+    github: caspiano/sleep_parser
+```
 
 2. Run `shards install`
 
@@ -18,22 +20,10 @@ TODO: Write a description here
 
 ```crystal
 require "sleep_parser"
+
+header = SleepParser::Header.from_io(some_io)
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/sleep_parser/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
 
 ## Contributors
 
-- [Caspian Baska](https://github.com/your-github-user) - creator and maintainer
+- [Caspian Baska](https://github.com/caspiano) - creator and maintainer
